@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: #222;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    border-bottom: 4px solid #e67e22;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  header p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+  }
+  nav {
+    background: #e67e22;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 2rem;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+  }
+  nav a:hover {
+    color: #222;
+  }
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  section {
+    margin-bottom: 2.5rem;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    padding: 1.5rem;
+    border-left: 6px solid #e67e22;
+  }
+  section h2 {
+    color: #e67e22;
+    margin-top: 0;
+  }
+  section ul {
+    padding-left: 1.2rem;
+  }
+  footer {
+    background: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid #e67e22;
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+  @media (max-width: 600px) {
+    main {
+      padding: 0.5rem;
+    }
+    nav ul {
+      gap: 1rem;
+    }
+    section {
+      padding: 1rem;
+    }
+  }
+
+  iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+  }
+
+  iframe:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+  }
+
+  iframe:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+
+h1 {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+    
+h2 {
+    font-size: 2rem;
+    color: #e67e22;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+    
+h3 {
+    font-size: 1.5rem;
+    color: #e67e22;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+    
+p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+}
+    
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 2rem;
+}
+    
+li {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 2rem;
+}
+    
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+    
+a:hover {
+    color: #e67e22;
+}
+    
+
+button {
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+    
+button:hover {
+    background: #e67e22;
+}
+
+.promo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .promo-card {
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+    padding: 1rem;
+    width: 220px;
+    text-align: center;
+    border-left: 5px solid #e67e22;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .promo-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  }
+  .promo-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.7rem;
+    border: 2px solid #e67e22;
+    background: #fff;
+  }
+  .promo-card h3 {
+    color: #e67e22;
+    margin: 0.5rem 0 0.3rem 0;
+    font-size: 1.15rem;
+  }
+  .promo-card p {
+    font-size: 0.98rem;
+    margin-bottom: 0.6rem;
+  }
+  .promo-horario {
+    display: inline-block;
+    background: #e67e22;
+    color: #fff;
+    font-size: 0.93rem;
+    padding: 0.25rem 0.8rem;
+    border-radius: 5px;
+  }
+  @media (max-width: 700px) {
+    .promo-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .promo-card {
+      width: 90%;
+    }
+  }
+  .promo-card-img-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 0.7rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #e67e22;
+    overflow: hidden;
+  }
+  
+  .promo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  footer ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+  }
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+  }
+  footer ul li a:hover {
+    color: #e67e22;
+  }
+    
+  footer p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+  }
+    
+  footer p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+  }
+    
+  footer p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+  }
+    
+  footer p a:hover {
+    color: #e67e22;
+  }
+
+.fab {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    color: #e67e22;
+    transition: color 0.2s;
+    cursor: pointer;
+
+}
+    
+.login-modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .login-form {
+    background: #222;
+    border-radius: 12px;
+    padding: 2.5rem 2rem 2rem 2rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    min-width: 320px;
+  }
+  
+  .login-form h2 {
+    color: #e67e22;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .login-form input {
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.1rem;
+    background: #333;
+    color: #fff;
+  }
+  
+  .login-form button {
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .login-form button:hover {
+    background: #cf711f;
+  }
+  
+  .login-error {
+    color: #ff4444;
+    font-size: 1rem;
+    min-height: 1.2em;
+    text-align: center;
+  }
+
+  .cerveza-aside {
+    position: fixed;
+    top: 120px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    z-index: 100;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: rgba(34,34,34,0.85);
+    padding: 0.5rem 0.2rem;
+    border-radius: 16px;
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE 10+ */
+}
+.cerveza-aside::-webkit-scrollbar {
+    display: none;                /* Chrome/Safari */
+}
+
+  .cerveza-bottle {
+    width: 50px;
+    height: 90px;
+    object-fit: cover;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    opacity: 0.95;
+    transition: transform 0.2s;
+  }
+  
+  .bottle1 { transform: rotate(-12deg) translateY(0); }
+  .bottle2 { transform: rotate(8deg) translateY(15px); }
+  .bottle3 { transform: rotate(-6deg) translateY(30px); }
+
+  @media (max-width: 900px) {
+    .cerveza-aside {
+      display: none;
+    }
+  }
+
+  .cerveza-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.7rem;
+  }
+  
+  .cerveza-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .cerveza-nombre {
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  .cerveza-precio {
+    color: #e67e22;
+    font-size: 1rem;
+    font-weight: bold;
+  }
